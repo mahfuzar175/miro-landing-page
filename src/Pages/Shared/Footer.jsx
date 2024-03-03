@@ -1,9 +1,13 @@
+import Container from "./Container";
+
 const Footer = () => {
-    return (
-        <div>
-            <h2>This footer</h2>
-        </div>
-    );
+  return (
+    <div>
+      <Container>
+        <h2>This footer</h2>
+      </Container>
+    </div>
+  );
 };
 
 export default Footer;

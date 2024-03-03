@@ -1,10 +1,13 @@
+import Container from "../Shared/Container";
 
 const Home = () => {
-    return (
-        <div>
-            <h2>This is home</h2>
-        </div>
-    );
+  return (
+    <div>
+      <Container>
+        <h2>This is home</h2>
+      </Container>
+    </div>
+  );
 };
 
 export default Home;

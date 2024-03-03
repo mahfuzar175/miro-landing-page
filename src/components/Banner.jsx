@@ -7,10 +7,10 @@ import img3 from "../assets/images/Capterra.png";
 
 const Banner = () => {
   return (
-    <div className="lg:h-[vh] overflow-hidden pb-4 w-full flex justify-center items-center mt-6">
-      <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-10 justify-btween mt-5 lg:mt-10">
+    <div className="lg:h-[vh] overflow-hidden pb-4 w-full flex justify-center items-center font-inter">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-10 justify-btween mt-5 lg:mt-14">
         <div className="lg:w-[48%] mt-6 lg:mt-0 space-y-3">
-          <h1 className="text-[#050038] text-3xl font-bold lg:text-5xl font-inter">
+          <h1 className="text-[#050038] text-4xl font-bold lg:text-5xl">
             Take ideas from better to best
           </h1>
           <p className="text-slate-700 my-2 mb-2 text-[17px]">
@@ -30,8 +30,8 @@ const Banner = () => {
               Collaborate with your team within minutes
             </p>
           </div>
-          <div className="py-8">
-            <div className="bg-gray-200  lg:w-[90%]  rounded-md ">
+          <div className="py-7">
+            <div className="bg-gray-200  lg:w-[90%]  rounded-md">
               <div className="flex items-center lg:flex-row flex-col gap-3 px-4 py-2">
                 <div>
                   <div className="flex items-center gap-">
@@ -57,7 +57,7 @@ const Banner = () => {
         <div>
           <img
             src={banner}
-            className=" w-full md:w-full 2xl:w-ful lg:w-[640px] lg:h-[432px]"
+            className=" w-full md:w-full lg:w-[640px] lg:h-[442px]"
             alt="banner-image"
           />
         </div>

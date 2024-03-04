@@ -1,7 +1,8 @@
+import Work from '../assets/images/Work_Way.png'
 const WorkWay = () => {
     return (
-        <div>
-            <h2>WORK WAY SECTION</h2>
+        <div className='overflow-hidden py-6'>
+            <img src={Work} alt="Work_Way" />
         </div>
     );
 };

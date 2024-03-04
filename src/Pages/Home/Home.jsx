@@ -3,6 +3,7 @@ import Brand from "../../components/Brand";
 import Collaborate from "../../components/Collaborate";
 import Connect from "../../components/Connect";
 import TeamWork from "../../components/TeamWork";
+import WorkWay from "../../components/WorkWay";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <Collaborate></Collaborate>
         <TeamWork></TeamWork>
         <Connect></Connect>
+        <WorkWay></WorkWay>
     </div>
   );
 };

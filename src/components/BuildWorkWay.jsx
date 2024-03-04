@@ -44,7 +44,7 @@ const BuildWorkWay = () => {
       </div>
 
       {tab === "Brainstorming" && (
-        <div className="grid grid-cols-1 items-centr lg:grid-cols-5">
+        <div className="grid grid-cols-1 lg:grid-cols-5">
           <div className="col-span-2 order-2 lg:order-1 space-y-3 lg:mt-12 mt-6">
             <h3 className="text-lg text-slate-700 font-medium">
               Brainstorming

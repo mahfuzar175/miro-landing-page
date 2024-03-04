@@ -16,7 +16,7 @@ const TeamWork = () => {
             team can connect, collaborate, and co-create in <br /> one space no
             matter where you are.
           </p>
-          <button className="flex items-center gap-2 py-2 underline text-blue-600 ">
+          <button className="flex items-center gap-2 py-2 underline text-blue-600 hover:text-blue-800">
             Learn more <FaArrowRight className="text-[13px] mt-1" />{" "}
           </button>
         </div>

@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner";
 import Brand from "../../components/Brand";
+import BuildWorkWay from "../../components/BuildWorkWay";
 import Collaborate from "../../components/Collaborate";
 import Connect from "../../components/Connect";
 import TeamWork from "../../components/TeamWork";
@@ -14,6 +15,7 @@ const Home = () => {
         <TeamWork></TeamWork>
         <Connect></Connect>
         <WorkWay></WorkWay>
+        <BuildWorkWay></BuildWorkWay>
     </div>
   );
 };

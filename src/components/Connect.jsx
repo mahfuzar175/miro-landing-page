@@ -6,16 +6,16 @@ const Connect = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
         {/* image section */}
         <div className="lg:mx-0 md:mx-auto mb-8 lg:mb-0">
-          <img className="w-[420px]" src={connect} alt="connect_image" />
+          <img className="w-[450px]" src={connect} alt="connect_image" />
         </div>
         {/* details section */}
-        <div className="space-y-1 lg:space-y-5">
+        <div className="space-y-1 lg:space-y-5 lg:ml-1">
         <h1 className=" text-[#050038] text-2xl md:text-3xl lg:text-5xl font-bold">
-            Connect your tools, <br /> close your tabs
+            Connect <br /> your tools, <br /> close your tabs
           </h1>
           <p className="text-slate-500 text-[17px] lg:w-[80%]">
-            Whether you want to edit your Google Docs, resolve Jira issues, or
-            collaborate over Zoom, Miro has 100+ integrations with tools you
+            Whether you want to edit your Google Docs, resolve <br /> Jira issues, or
+            collaborate over Zoom, Miro has 100+ <br /> integrations with tools you
             already use and love.
           </p>
           <button className="flex items-center gap-2 py-2 underline text-blue-600 hover:text-blue-800">

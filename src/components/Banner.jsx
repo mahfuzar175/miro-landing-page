@@ -23,7 +23,7 @@ const Banner = () => {
               type="text"
               placeholder="Enter your work email"
             />
-            <button className=" flex items-center font-normal w-full justify-center gap-1 lg:gap-2  bg-[#4262FF] px-4 lg:px-5 py-2 text-[15px] lg:text-[17px] lg:py-[9px] rounded-full text-white">
+            <button className="btn flex items-center font-normal w-full justify-center gap-1 lg:gap-2  bg-[#4262FF] hover:bg-blue-800 px-4 lg:px-5 py-2 text-[15px] lg:text-[17px] lg:py-[9px] rounded-full text-white">
               Sign up free <LuMoveRight className="mt-[2px] " />
             </button>
             <p className="text-slate-500 text-[16px]">

@@ -1,5 +1,6 @@
-import highlight from "../assets/images/idea.png";
 import { LuMoveRight } from "react-icons/lu";
+import highlight from "../assets/images/idea.png";
+
 const Collaborate = () => {
   return (
     <div className="py-6 md:py-7 overflow-hidden relative lg:py-12 mt-10 font-inter">
@@ -43,7 +44,7 @@ const Collaborate = () => {
       </div>
       {/* button */}
       <div className="text-center pt-6 lg:pt-16 ">
-        <button className=" font-normal  lg:gap-2 bg-[#4262FF] px-4 lg:px-5 py-2 text-[15px] lg:text-[17px] lg:py-[9px] rounded-full text-white">
+        <button className="btn font-normal lg:gap-2 bg-[#4262FF] hover:bg-blue-800 px-4 lg:px-5 py-2 text-[15px] lg:text-[17px] lg:py-[9px] rounded-full text-white">
           <div className="flex gap-1 items-center">
             Sign up free
             <span>

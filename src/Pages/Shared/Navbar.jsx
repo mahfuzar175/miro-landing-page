@@ -125,7 +125,6 @@ const Navbar = () => {
                 <button className="block lg:ml-4">Login</button>
               </div>
             </div>
-
             <div className="flex items-center text-[17px] gap-1">
               <div className="hidden lg:flex items-center font-medium">
                 <AiOutlineGlobal className="text-xl" />
@@ -141,7 +140,7 @@ const Navbar = () => {
               </div>
               <div className="flex items-center">
                 <div>
-                  <button className="flex items-center font-normal gap-1 lg:gap-2 lg:ml-4 bg-[#4262FF] px-4 lg:px-5 py-2 text-[15px] lg:text-[17px] lg:py-[9px] rounded-full text-white">
+                  <button className="btn flex items-center font-normal gap-1 lg:gap-2 lg:ml-4 bg-[#4262FF] hover:bg-blue-800 px-4 lg:px-5 py-2 text-[15px] lg:text-[17px] lg:py-[9px] rounded-full text-white">
                     Sign up free <LuMoveRight className="mt-[2px] " />
                   </button>
                 </div>

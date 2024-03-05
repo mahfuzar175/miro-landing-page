@@ -26,7 +26,7 @@ const BuildAllTeam = () => {
   };
 
   return (
-    <div className="py-3 md:py-7 lg:py-10 space-y-6 lg:space-y-9 lg:mt-16 overflow-hidden relative font-inter">
+    <div className="py-3 md:py-7 lg:py-9 space-y-6 lg:space-y-9 lg:mt-16 overflow-hidden relative font-inter">
       <h1 className="text-3xl lg:text-[42px] font-bold text-[#050038] my-4">
         Built for all kinds of teams
       </h1>

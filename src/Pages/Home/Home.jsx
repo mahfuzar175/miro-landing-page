@@ -4,6 +4,7 @@ import BuildAllTeam from "../../components/BuildAllTeam";
 import BuildWorkWay from "../../components/BuildWorkWay";
 import Collaborate from "../../components/Collaborate";
 import Connect from "../../components/Connect";
+import Review from "../../components/Review";
 import TeamWork from "../../components/TeamWork";
 import WorkWay from "../../components/WorkWay";
 
@@ -18,6 +19,7 @@ const Home = () => {
         <WorkWay></WorkWay>
         <BuildWorkWay></BuildWorkWay>
         <BuildAllTeam></BuildAllTeam>
+        <Review></Review>
     </div>
   );
 };

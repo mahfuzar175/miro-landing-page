@@ -48,7 +48,6 @@ const BuildAllTeam = () => {
           ))}
         </ul>
       </div>
-
       {tab === "UX & Design" && (
         <div className="grid grid-cols-1  lg:grid-cols-5  mt-5 lg:mt-8">
           <div className="col-span-2 order-2 lg:order-1 space-y-3 mt-6">
@@ -77,7 +76,6 @@ const BuildAllTeam = () => {
             <button className="flex items-center gap-2 py-2  text-blue-600 hover:text-blue-800">
               Learn more <FaArrowRight className="text-[13px] mt-1" />{" "}
             </button>
-
             <div className="pt-10 lg:pt-20">
               <h4 className="text-slate-700 mb-5">Integrate your favorite tools</h4>
               <div className="flex items-center gap-4 py-2">

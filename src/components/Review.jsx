@@ -8,7 +8,7 @@ import person3 from "../assets/images/Person3.png";
 
 const Review = () => {
   return (
-    <div className="overflow-hidden py-3 md:py-7 lg:py-10 lg:mt-12 font-inter">
+    <div className="overflow-hidden py-3 md:py-7 lg:py-10 lg:mt-10 font-inter">
       {/* heading */}
       <div>
         <h1 className="text-center  text-[#050038] text-2xl md:text-3xl lg:text-5xl font-bold">

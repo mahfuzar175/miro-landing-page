@@ -10,7 +10,7 @@ const Main = () => {
       <Container>
         <Outlet></Outlet>
       </Container>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };
